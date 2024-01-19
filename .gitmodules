@@ -1,0 +1,6 @@
+[submodule "deps/libnkutils"]
+	path = deps/libnkutils
+	url = https://github.com/sardemff7/libnkutils
+[submodule "deps/imgui"]
+	path = deps/imgui
+	url = https://github.com/ocornut/imgui
