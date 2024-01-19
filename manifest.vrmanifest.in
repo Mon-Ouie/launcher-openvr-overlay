@@ -1,0 +1,16 @@
+{
+    "source" : "builtin",
+    "applications": [{
+	"app_key": "org.mon-ouie.launcher-openvr-overlay",
+	"launch_type": "binary",
+	"binary_path_linux": "${CMAKE_INSTALL_FULL_BINDIR}/launcher-openvr-overlay",
+	"is_dashboard_overlay": true,
+
+	"strings": {
+	    "en_us": {
+		"name": "Launcher",
+		"description": "Launch applications or capture desktop windows as overlays."
+	    }
+	}
+    }]
+}
